@@ -1,6 +1,9 @@
-h1{
-    color: red;
+.texto{
+    font-size: 20px;
+    font-weight: bolder;
 }
+
+
 
 @media (min-width: 992px){
     .menu{
@@ -15,3 +18,18 @@ h1{
 .search-boton{
     margin-left: 20px;
 }
+
+.nav-link{
+    display: flex;
+    flex-direction: column;
+}
+
+.mapa{
+    display: flex;
+}
+
+.image{
+    background-image:url(./assets/banner-prueba.jpg);
+    background-size: cover;
+}
+
